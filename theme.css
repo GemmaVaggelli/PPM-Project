@@ -1,0 +1,55 @@
+html,body,.row,.col {
+    height: 100%;
+}
+
+.block {
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide-out ul {
+    width:400px important!;
+}
+
+header, main, footer, #mapdiv {
+    padding-left: 500px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px)
+{
+  header, main, footer, #mapdiv {
+      padding-left: 0;
+    }
+    #slide-out {
+        z-index: 1001;
+        width:100%;
+    }
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer, #mapdiv {
+    padding-left: 0;
+  }
+  #slide-out {
+      z-index: 1001;
+      width:100%;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  header, main, footer, #mapdiv {
+    padding-left: 0;
+  }
+  #slide-out {
+      z-index: 1001;
+      width:100% important!;
+  }
+}
+
+#slide-out {
+    z-index: 1001;
+    width:500px;
+}
+
+.icon-white{
+  color: white;
+}
+
